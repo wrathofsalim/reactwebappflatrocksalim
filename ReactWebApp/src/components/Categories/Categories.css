@@ -1,0 +1,45 @@
+/** Category section **/
+
+.category {}
+
+.category .category_box {
+    position: relative;
+    text-align: center;
+    background: lightgrey;
+    /* height: 435px; */
+    width: 320px;
+    border: #000000 solid 10px;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+.category .category_box .title {
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 290px;
+    height: 50px;
+    color: #000000dc;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.category .category_box .card_description {
+    text-align: center;
+    width: 290px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+/* 
+.category .category_box .img {
+    padding: 20px;
+} */
+
+/** end Category section **/

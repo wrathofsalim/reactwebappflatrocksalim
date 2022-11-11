@@ -1,0 +1,112 @@
+.products {}
+
+.products .products_box {
+     position: relative;
+     text-align: center;
+     background: lightgrey;
+     height: 435px;
+     width: 320px;
+     border: #000000 solid 10px;
+     border-radius: 20px;
+     padding: 5px;
+     margin: 30px;
+     margin-top: 50px;
+}
+
+.products .titlepage p {
+     font-size: 17px;
+     line-height: 32px;
+     font-weight: 800px;
+}
+
+.products .products_box_details {
+     height: 600px;
+     width: 320px;
+}
+
+/* TITLE */
+.products .products_box .title {
+     border-radius: 10px;
+     border: 2px solid black;
+     width: 290px;
+     height: 50px;
+     color: #000000dc;
+     font-size: 20px;
+     font-weight: 700;
+     line-height: 40px;
+     margin-bottom: 10px;
+     text-align: center;
+}
+
+/* IMAGE */
+.products .products_box .img {
+     width: 290px;
+     height: 290px;
+     padding: 20px;
+     text-align: center;
+     border-radius: 10px;
+     border: 2px solid rgb(0, 0, 0);
+}
+
+
+.products .products_box .card_description {
+     text-align: center;
+     width: 290px;
+     height: 100px;
+     border: 2px solid black;
+     border-radius: 10px;
+     margin-top: 10px;
+     font-size: 15px;
+}
+
+/* COST */
+.products .products_box .priceTag {
+
+     text-align: center;
+     color: #000000;
+     font-size: 20px;
+     font-weight: 900;
+     line-height: 22px;
+     bottom: 0px;
+     width: 290px;
+     height: 50px;
+     padding-top: 10px;
+     margin-top: 5px;
+     border: 2px solid;
+     border-radius: 10px;
+}
+
+
+
+.products .products_box .category {
+
+     text-align: center;
+     color: #100d0d;
+     font-size: 20px;
+     line-height: 22px;
+     bottom: 0px;
+     width: 290px;
+     height: 50px;
+     padding-top: 10px;
+     margin-top: 5px;
+     border: 15px solid;
+     border-radius: 10px;
+}
+
+.coin {
+     position: relative;
+     top: -5px;
+     height: 30px;
+     width: 30px;
+}
+
+.quantity{
+     position: relative;
+     height: 50px;
+     width: 50px;
+     border: 2px black double;
+     border-radius: 50px;
+     background-color: snow;
+     line-height: 45px;
+     font-size: 25px;
+}

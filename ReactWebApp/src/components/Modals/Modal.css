@@ -1,0 +1,133 @@
+
+/** Overlay/Modal section **/
+.overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+}
+
+.overlay .closeBtn {
+    position: absolute;
+    right: -55px;
+    top: 15px;
+    font-size: 35px;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    background-color: rgb(102, 102, 102);
+    color: white;
+}
+
+.overlay .buttons {
+    position: relative;
+    left: 50%;
+    transform: translate(-9%, 5%);
+    padding-top: 70px;
+    background-color: black;
+    left: 32px;
+    height: 100px;
+    width: 350px;
+    padding: 1%;
+    border-radius: 30px;
+    background: lightgrey;
+    border: #000 10px solid;
+}
+
+.modalContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    z-index: 15;
+}
+
+.modal_box {
+    height: auto;
+    width: 350px;
+    padding: 1%;
+    border-radius: 20px;
+    background: lightgrey;
+    border: #000 10px solid;
+}
+
+.modal_box .link-btn {
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 100%;
+    height: 45px;
+    color: #000000dc;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.modal_box .link-btn:hover {
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 100%;
+    height: 45px;
+    color: #ffffffdc;
+    background-color: rgb(127, 127, 127);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.modal_box .link-btn:hover .link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.modal_box input {
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 100%;
+    height: 45px;
+    color: #000000dc;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
+.modal_box textarea {
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 100%;
+    height: 100px;
+    color: #000000dc;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
+.modal_box img {
+    width: 320px;
+    /* width: 100%; */
+    height: 50%;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.modal_box select {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+/** end Overlay section **/

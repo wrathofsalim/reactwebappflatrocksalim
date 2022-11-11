@@ -1,0 +1,73 @@
+/** cart **/
+.cart {}
+
+.cart .cart_box {
+    position: relative;
+    text-align: center;
+    background: lightgrey;
+    min-height: 40px;
+    max-height: 300px;
+    width: 320px;
+    border: #000000 solid 10px;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+
+.cart .cart_box .priceTag {
+
+    text-align: center;
+    color: #ffffff;
+    background-color: rgb(153, 152, 152);
+    font-size: 25px;
+    line-height: 0px;
+    bottom: 0px;
+    width: 290px;
+    height: 50px;
+    padding-top: 25px;
+    margin-bottom: 10px;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+
+.cart .cart_box .priceTag .coin {
+    position: absolute;
+    top: 55px;
+    right: 80px;
+}
+
+.cart .quantityTag {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    line-height: 45px;
+    font-size: 25px;
+    font-weight: 700;
+    width: 50px;
+    height: 50px;
+    border: rgb(0, 0, 0) 5px solid;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.nav-link .quantityTag {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    -ms-flex-align: stretch;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 30px;
+    height: 30px;
+    border: red 2px solid;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+}
+
+
+/** end of cart **/

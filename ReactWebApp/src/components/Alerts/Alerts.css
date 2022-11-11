@@ -1,0 +1,15 @@
+.alert_box{
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius: 5px;
+    border: 2px double;
+    line-height: 38px;
+    min-height: 38px;
+}
+
+.danger{
+    border-color: rgb(114, 0, 0);
+    background-color: rgb(211, 112, 112);
+    color: black;
+
+}

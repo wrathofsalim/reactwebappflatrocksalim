@@ -1,0 +1,72 @@
+
+/** Users **/
+
+.users {}
+
+.users .users_box {
+     position: relative;
+     text-align: center;
+     background: lightgrey;
+     min-height: 40px;
+     max-height: 300px;
+     width: 320px;
+     border: #000000 solid 10px;
+     border-radius: 20px;
+     padding: 5px;
+     margin: 30px;
+     margin-top: 50px;
+}
+
+.users .users_box .title {
+     border-radius: 10px;
+     border: 2px solid black;
+     width: 290px;
+     height: 50px;
+     color: #000000dc;
+     font-size: 20px;
+     margin-bottom: 10px;
+     text-align: center;
+}
+
+.users .users_box .others {
+     border-radius: 10px;
+     border: 2px solid black;
+     width: 290px;
+     height: 50px;
+     color: #000000;
+     font-size: 20px;
+     margin-bottom: 10px;
+     text-align: center;
+}
+
+.users .card_description {
+     position: relative;
+     text-align: center;
+     background: lightgrey;
+     min-height: 40px;
+     height: auto;
+     width: 320px;
+     border: #000000 solid 10px;
+     border-radius: 20px;
+     padding: 5px;
+     /* margin: 40px; */
+}
+
+.users .buttons {
+     position: relative;
+     /* bottom: -15px; */
+     left: 32px;
+     width: 320px;
+     height: 100px;
+}
+
+.users .enable {
+     border-radius: 100px;
+     background-color: rgb(96, 182, 96);
+}
+
+.users .disable {
+     border-radius: 100px;
+}
+
+/** end Users **/

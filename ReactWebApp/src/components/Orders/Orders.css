@@ -1,0 +1,164 @@
+/** Orders section **/
+.orders {}
+
+/* .orders .titlepage p {
+     font-size: 17px;
+     line-height: 23px0px;
+     font-weight: 400px;
+} */
+
+.orders .orders_box {
+     position: relative;
+     text-align: center;
+     background-color: rgb(213, 234, 253);
+     height: 435px;
+     width: 510px;
+     border: #000000 solid 10px;
+     border-radius: 20px;
+     padding: 5px;
+     margin: 30px;
+     margin-top: 50px;
+}
+
+.orders .user {
+     background-color: rgb(168, 214, 255);
+     border: 2px solid black;
+     border-radius: 10px;
+     line-height: 23px;
+     padding-top: 10px;
+     width: 480px;
+     height: 90px;
+     color: #000000dc;
+     font-size: 20px;
+     margin-bottom: 10px;
+     text-align: center;
+}
+
+.orders .address {
+     background-color: rgb(168, 214, 255);
+     border: 2px solid black;
+     border-radius: 10px;
+     line-height: 23px;
+     padding-top: 10px;
+     width: 480px;
+     height: 120px;
+     color: #000000dc;
+     font-size: 20px;
+     margin-bottom: 10px;
+     text-align: center;
+}
+
+.orders .title {
+     line-height: 23px;
+     border-radius: 10px;
+     padding-top: 10px;
+     border: 2px solid black;
+     width: 480px;
+     height: 50px;
+     color: #000000dc;
+     font-size: 20px;
+     margin-bottom: 10px;
+     text-align: center;
+}
+
+
+
+.orders .orders_box .img {
+     width: 290px;
+     height: 290px;
+     padding: 20px;
+     text-align: center;
+     border-radius: 10px;
+     border: 2px solid rgb(0, 0, 0);
+}
+
+.orders .orders_box_details {
+     position: relative;
+     text-align: center;
+     background-color: rgb(213, 234, 253);
+     height: 525px;
+     width: 320px;
+     border: #000000 solid 10px;
+     border-radius: 20px;
+     padding: 5px;
+     margin-left: 40px;
+     margin-top: 50px;
+
+}
+
+/* .orders .orders_box_details .inputs {
+     line-height: 23px;
+     border-radius: 10px;
+     padding-top: 10px;
+     border: 2px solid black;
+     width: 290px;
+     height: 50px;
+     background-color: rgb(168, 214, 255);
+     color: #000000dc;
+     font-size: 20px;
+     margin-bottom: 10px;
+     text-align: center;
+} */
+
+/* .orders .orders_box_details button {
+     line-height: 23px;
+     border-radius: 10px;
+     padding-top: 10px;
+     border: 2px solid black;
+     width: 290px;
+     height: 50px;
+     background-color: rgb(168, 214, 255);
+     color: #000000dc;
+     font-size: 20px;
+     margin-bottom: 10px;
+     text-align: center;
+} */
+
+/* .orders .orders_box_details button:hover {
+     line-height: 23px;
+     border-radius: 10px;
+     padding-top: 10px;
+     border: 2px solid black;
+     width: 290px;
+     height: 50px;
+     background-color: rgb(89, 178, 255);
+     color: #000000dc;
+     font-size: 20px;
+     margin-bottom: 10px;
+     text-align: center;
+} */
+
+/* .orders .orders_box_details .addressRadio {
+     clear: both;
+     position: relative;
+     top: 0px;
+     margin-top: 10px;
+     height: 30px;
+     width: 290px;
+} */
+/* 
+.addressRadio .r_btn {
+     position: relative;
+     width: 50px;
+     float: right;
+     right: 70px;
+     height: 20px;
+} */
+
+/* .addressRadio .h_title {
+     position: relative;
+     float: left;
+     left: 50px;
+     width: 160px;
+     height: 20px;
+} */
+
+/* .orders .buttons {
+     position: relative;
+     bottom: -15px;
+     left: 32px;
+     width: 320px;
+     height: 100px;
+} */
+
+/** End Order Section **/

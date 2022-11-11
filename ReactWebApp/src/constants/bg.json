@@ -1,0 +1,52 @@
+[
+  {
+    "city": "Silvermoon City",
+    "continent": "Eastern Kingdom",
+    "code": "SM"
+  },
+  {
+    "city": "Undercity",
+    "continent": "Eastern Kingdom",
+    "code": "UC"
+  },
+  {
+    "city": "Stormwind City",
+    "continent": "Eastern Kingdom",
+    "code": "SW"
+  },
+  {
+    "city": "Ironforge City",
+    "continent": "Eastern Kingdom",
+    "code": "IF"
+  },
+  {
+    "city": "Darnassus",
+    "continent": "Kalimdor",
+    "code": "DA"
+  },
+  {
+    "city": "Orgrimmar",
+    "continent": "Kalimdor",
+    "code": "OG"
+  },
+  {
+    "city": "Thunder Bluff",
+    "continent": "Kalimdor",
+    "code": "TB"
+  },
+  {
+    "city": "Exodar",
+    "continent": "Kalimdor",
+    "code": "EX"
+  },
+  {
+    "city": "Dalaran",
+    "continent": "Northrend",
+    "code": "DA"
+  },
+  {
+    "city": "Shattrath",
+    "continent": "Kalimdor",
+    "code": "SHA"
+  }
+]
